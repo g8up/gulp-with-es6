@@ -2,6 +2,9 @@
   "name": "gulp-with-es6",
   "version": "1.0.0",
   "description": "用 ES6 编写 gulpfile.js、编译 ES6 演示",
+  "scripts":{
+    "start": "node lib/start.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/g8up/gulp-with-es6.git"
@@ -16,10 +19,10 @@
   "homepage": "https://github.com/g8up/gulp-with-es6",
   "license": "ISC",
   "dependencies": {
-    "gulp-notify": "^2.2.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-notify": "^2.2.0",
     "gulp-babel": "^6.1.2",
     "babel-core": "^6.5.2",
     "babel-register": "^6.5.2",
